@@ -5,7 +5,7 @@
         "ng": "ng",
         "start": "ng serve",
         "build": "ng build",
-        "build-dom": "ng build dom",
+        "build-dom": "ng build dom-svcs",
         "build-angular-cc": "ng build angular-credit-cards",
         "test": "ng test",
         "lint": "ng lint",

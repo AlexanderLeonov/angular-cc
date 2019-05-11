@@ -8,7 +8,7 @@ import {
     Validator,
     Validators
 } from '@angular/forms';
-import {DomService} from '@alexanderleonov/dom';
+import {DomService} from '@alexanderleonov/dom-svcs';
 import {CreditCardService} from '../services/credit-card.service';
 import {filterDigitChar, isArray, isNumber, isString, removeNonDigitChars, replaceFullWidthChars} from '../util';
 import {CardInfo, CardType} from '../models';

@@ -1,15 +1,13 @@
 {
-    "name": "@alexanderleonov/dom",
-    "version": "0.0.3",
-    "description": "Abstraction library for some direct DOM operations",
+    "name": "@alexanderleonov/dom-svcs",
+    "version": "0.0.1",
+    "description": "Abstraction library for some DOM operations",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/AlexanderLeonov/angular-cc.git"
     },
     "peerDependencies": {
-        "@angular/core": "^7.2.0",
-        "rxjs": "^6.0.0",
-        "zone.js": "~0.8.26"
+        "@angular/core": "^7.2.0"
     },
     "devDependencies": {
         "@angular/core": "^7.2.0",

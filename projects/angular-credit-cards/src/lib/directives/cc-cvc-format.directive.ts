@@ -1,6 +1,6 @@
 import {Directive, ElementRef, forwardRef, HostListener, Input, Renderer2} from '@angular/core';
 import {AbstractControl, ControlValueAccessor, NG_VALIDATORS, NG_VALUE_ACCESSOR, ValidationErrors, Validator} from '@angular/forms';
-import {DomService} from '@alexanderleonov/dom';
+import {DomService} from '@alexanderleonov/dom-svcs';
 import {CardInfo} from '../models';
 import {filterDigitChar, isNumber, removeNonDigitChars, replaceFullWidthChars} from '../util';
 

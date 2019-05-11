@@ -8,7 +8,7 @@ import {
     Validator,
     Validators
 } from '@angular/forms';
-import {DomService} from '@alexanderleonov/dom';
+import {DomService} from '@alexanderleonov/dom-svcs';
 import {filterDigitChar, isString, removeNonDigitChars, replaceFullWidthChars} from '../util';
 import * as moment_ from 'moment';
 

@@ -2,10 +2,10 @@ import {Inject, Injectable} from '@angular/core';
 import {CardInfo, CardType} from '../models';
 import {CREDIT_CARD_DEFINITIONS} from '../tokens';
 import {isArray, isString} from '../util';
-import {AngularCreditCardsModule} from '../angular-credit-cards.module';
+import {CcServiceModule} from '../cc-service.module';
 
 @Injectable({
-    providedIn: AngularCreditCardsModule
+    providedIn: CcServiceModule
 })
 export class CreditCardService {
 
