@@ -1,0 +1,24 @@
+{
+    "name": "@alexanderleonov/dom",
+    "version": "0.0.3",
+    "description": "Abstraction library for some direct DOM operations",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AlexanderLeonov/angular-cc.git"
+    },
+    "peerDependencies": {
+        "@angular/core": "^7.2.0",
+        "rxjs": "^6.0.0",
+        "zone.js": "~0.8.26"
+    },
+    "devDependencies": {
+        "@angular/core": "^7.2.0",
+        "rxjs": "^6.0.0",
+        "zone.js": "~0.8.26"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Alexander Leonov <alexander.leonov.77@gmail.com>",
+    "license": "MIT"
+}

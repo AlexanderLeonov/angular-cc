@@ -1,0 +1,15 @@
+{
+    "name": "@alexanderleonov/angular-credit-cards",
+    "version": "0.0.1",
+    "description": "Set of directives for credit card type detection, credit card number/expiration formatting and validating",
+    "peerDependencies": {
+        "@angular/core": "^7.2.0",
+        "@angular/forms": "^7.2.0"
+    },
+    "dependencies": {
+        "moment": "^2.24.0",
+        "@alexanderleonov/dom": "^0.0.2"
+    },
+    "author": "Alexander Leonov <alexander.leonov.77@gmail.com>",
+    "license": "MIT"
+}
