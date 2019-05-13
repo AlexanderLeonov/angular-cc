@@ -1,9 +1,9 @@
 import {Injectable} from '@angular/core';
-import {DomModule} from './dom.module';
+import {DomSvcsModule} from './dom.module';
 import {replaceFullWidthChars} from './util';
 
 @Injectable({
-    providedIn: DomModule
+    providedIn: DomSvcsModule
 })
 export class DomService {
 
