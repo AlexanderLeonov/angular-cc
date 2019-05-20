@@ -1,8 +1,8 @@
 import {CardInfo} from './models';
 
-const defaultFormat = /(\d{1,4})/g;
-const amexFormat = /(\d{1,4})(\d{1,6})?(\d{1,5})?/;
-const dinersClubFormat = /(\d{1,4})(\d{1,6})?(\d{1,4})?/;
+export const defaultFormat = new RegExp('(\\d{1,4})', 'g'); // /(\d{1,4})/g;
+export const amexFormat = new RegExp('(\\d{1,4})(\\d{1,6})?(\\d{1,5})?'); // /(\d{1,4})(\d{1,6})?(\d{1,5})?/;
+export const dinersClubFormat = new RegExp('(\\d{1,4})(\\d{1,6})?(\\d{1,4})?'); // /(\d{1,4})(\d{1,6})?(\d{1,4})?/;
 
 // ATTENTION!
 // Range definition must be a string containing simple prefix or an array containing two strings of the same length

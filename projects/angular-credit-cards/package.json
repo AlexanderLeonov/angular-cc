@@ -1,6 +1,6 @@
 {
     "name": "@alexanderleonov/angular-credit-cards",
-    "version": "0.0.4",
+    "version": "0.0.14",
     "description": "Set of directives for credit card type detection, credit card number/expiration formatting and validating",
     "repository": {
         "type": "git",
